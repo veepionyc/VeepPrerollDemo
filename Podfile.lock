@@ -1,0 +1,51 @@
+PODS:
+  - AWSCore (2.6.35)
+  - AWSKinesis (2.6.35):
+    - AWSCore (= 2.6.35)
+  - dotveep (1.3.5):
+    - dotveep/Messages (= 1.3.5)
+  - dotveep/Messages (1.3.5):
+    - Protobuf (= 3.4.0)
+  - GoogleAds-IMA-iOS-SDK (3.10.1)
+  - Protobuf (3.4.0)
+  - VPKit/Core (2.6.10-beta12):
+    - VPKit/Network
+    - VPKit/Video
+  - VPKit/Events (2.6.10-beta12):
+    - AWSCore (~> 2.6.10)
+    - AWSKinesis (~> 2.6.10)
+    - VPKit/Utils
+  - VPKit/Models (2.6.10-beta12):
+    - dotveep (= 1.3.5)
+    - VPKit/Utils
+  - VPKit/Network (2.6.10-beta12):
+    - VPKit/Models
+  - VPKit/Utils (2.6.10-beta12)
+  - VPKit/Video (2.6.10-beta12):
+    - VPKit/Views
+    - XCDYouTubeKit (~> 2.5.6)
+  - VPKit/Views (2.6.10-beta12):
+    - VPKit/Events
+    - VPKit/Models
+  - XCDYouTubeKit (2.5.6)
+
+DEPENDENCIES:
+  - GoogleAds-IMA-iOS-SDK (~> 3.9)
+  - VPKit/Core (from `../VPKit_7`)
+
+EXTERNAL SOURCES:
+  VPKit:
+    :path: ../VPKit_7
+
+SPEC CHECKSUMS:
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  AWSKinesis: 83996e98972f4988ca7cd9a35e86984f45b9a450
+  dotveep: 3bbbb014e43745e3815c413257c0d3e02f05b5b3
+  GoogleAds-IMA-iOS-SDK: 0e37ab83b22075ad631a70dcba9528cb246c92bf
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  VPKit: 24a1d4fb8c593007677d8234ed93c998e8adfd90
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
+
+PODFILE CHECKSUM: b963a05c339a91ff2f8aca22da67e9edcaaffebc
+
+COCOAPODS: 1.3.1
