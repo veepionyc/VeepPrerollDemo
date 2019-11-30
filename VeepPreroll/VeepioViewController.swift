@@ -75,22 +75,40 @@ extension VeepioViewController: VPKPreviewDelegate {
     
     /// - Tag: vpkPreviewTouched
     func vpkPreviewTouched(_ preview: VPKPreview, image: VPKImage) {
+       
         /**
          Invoking the VPKVeepViewer.
          */
         
-        
         if prerollSwitch.isOn == true {
-            //with preroll
+
+            /**
+            With preroll.
+             */
+            
+            let loader = UIActivityIndicatorView(style: .whiteLarge)
+            loader.center = CGPoint(x:preview.bounds.size.width/2,y:preview.bounds.size.height/2)
+            preview.addSubview(loader)
+            loader.startAnimating()
+            
             self.prerollHandler = PrerollHandler.init(view: preview, preroll: URL.init(string: VeepioViewController.kTestAppAdTagUrl)!, completion: { [weak self] in
+                loader.removeFromSuperview()
                 self?.prerollHandler = nil
                 guard let vpViewer = VPKit.viewer(with:preview) else { return }
-               
-                //It is essential to use this custom present method to obtain the correct rotation behaviour for the veep video player.
+                
+                /**
+                 It is essential to use this custom present method to obtain the correct rotation behaviour for the veep video player.
+                 */
+                
                 VPKit.present(vpViewer);
             })
         } else {
-            //without preroll. If the VPKPreview delegate is not set this code is not needed.
+            
+            /**
+             Without preroll.
+             If we are not using prerolls at all, the VPKPreview delegate does not need to be set and this code is not needed.
+             */
+            
             guard let vpViewer = VPKit.viewer(with:preview) else { return }
             VPKit.present(vpViewer);
         }
