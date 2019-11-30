@@ -12,6 +12,8 @@ import UIKit
 import VPKit
 
 class VeepioViewController: UIViewController  {
+  
+    //MARK: - properties
     
     @IBOutlet weak var prerollSwitch: UISwitch!
     @IBOutlet var preview: VPKPreview!
@@ -29,6 +31,9 @@ class VeepioViewController: UIViewController  {
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        /**
+         Rotation handlling. See also the App Delegate. This is an example to show how the app can be constrained to portrait but allow the veep video player to play in any orientation.
+         */
         return UIInterfaceOrientationMask.portrait
     }
     
@@ -41,13 +46,24 @@ class VeepioViewController: UIViewController  {
         self.preview.image = previewImage
         
         /**
-         Setting the optional delegate so that we can intercept launch of the veep viewer and insert a preroll
+         Setting the optional delegate so that we can intercept launch of the veep viewer and insert a preroll. This step is unnecessary for basic playback without prerolls.
          */
         self.preview.delegate = self
     }
+    
+    //MARK: - switch action
+    
+    @IBAction func prerollSwitched(_ sender: UISwitch) {
+        //cancelling a preroll video
+        if sender.isOn == false {
+            self.prerollHandler = nil
+        }
+    }
+    
+  
 }
 
-
+//MARK: -
 extension VeepioViewController: VPKPreviewDelegate {
     
     static let kTestAppAdTagUrl =
@@ -60,19 +76,21 @@ extension VeepioViewController: VPKPreviewDelegate {
     /// - Tag: vpkPreviewTouched
     func vpkPreviewTouched(_ preview: VPKPreview, image: VPKImage) {
         /**
-         invoking the VPKVeepViewer
-         set the viewer's transitioning delegate to a custom transitioning object (or nil) to override supplied transition animations
+         Invoking the VPKVeepViewer.
          */
         
-       
+        
         if prerollSwitch.isOn == true {
-        self.prerollHandler = PrerollHandler.init(view: preview, preroll: URL.init(string: VeepioViewController.kTestAppAdTagUrl)!, completion: { [weak self] in
-            self?.prerollHandler = nil
-
-            guard let vpViewer = VPKit.viewer(with:preview) else { return }
-            VPKit.present(vpViewer);
-        })
+            //with preroll
+            self.prerollHandler = PrerollHandler.init(view: preview, preroll: URL.init(string: VeepioViewController.kTestAppAdTagUrl)!, completion: { [weak self] in
+                self?.prerollHandler = nil
+                guard let vpViewer = VPKit.viewer(with:preview) else { return }
+               
+                //It is essential to use this custom present method to obtain the correct rotation behaviour for the veep video player.
+                VPKit.present(vpViewer);
+            })
         } else {
+            //without preroll. If the VPKPreview delegate is not set this code is not needed.
             guard let vpViewer = VPKit.viewer(with:preview) else { return }
             VPKit.present(vpViewer);
         }
