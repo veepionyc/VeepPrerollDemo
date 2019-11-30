@@ -7,19 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E05EDE59A3EFAD660689773 /* Pods_VeepPrerollB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424B854147099A2382D13D9B /* Pods_VeepPrerollB.framework */; };
-		6BD502A085CB8C3AAE3E727D /* Pods_VeepPrerollC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC17C06B695AD6C285052C4D /* Pods_VeepPrerollC.framework */; };
-		9010268E523BB39BDEC27612 /* Pods_VeepPrerollBC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A95C4C0778126E5A6C3F33 /* Pods_VeepPrerollBC.framework */; };
-		AB0625CB2392CE2D001C3BAF /* PrerollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */; };
-		AB0625CC2392CE2D001C3BAF /* VeepioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC26F562390345500EB5ADC /* VeepioViewController.swift */; };
-		AB0625CD2392CE2D001C3BAF /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */; };
-		AB0625D12392CE2D001C3BAF /* VPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; };
-		AB0625D42392CE2D001C3BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C6238F40EE0082D34A /* LaunchScreen.storyboard */; };
-		AB0625D52392CE2D001C3BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C4238F40EE0082D34A /* Assets.xcassets */; };
-		AB0625D62392CE2D001C3BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C1238F40EC0082D34A /* Main.storyboard */; };
-		AB0625D92392CE2D001C3BAF /* VPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB0625E02392CEE3001C3BAF /* AppDelegateC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BD238F40EC0082D34A /* AppDelegateC.swift */; };
-		AB0625E12392CEE5001C3BAF /* AppDelegateC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BD238F40EC0082D34A /* AppDelegateC.swift */; };
+		70250677F283059846676CDF /* Pods_VeepPrerollB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C54BBFA79BC4121741129 /* Pods_VeepPrerollB.framework */; };
 		AB44FCEA2392C1470019C322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75B694239274E900653320 /* AppDelegate.swift */; };
 		AB44FCEB2392C1470019C322 /* PrerollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */; };
 		AB44FCEC2392C1470019C322 /* VeepioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC26F562390345500EB5ADC /* VeepioViewController.swift */; };
@@ -29,34 +17,9 @@
 		AB44FCF42392C1470019C322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C1238F40EC0082D34A /* Main.storyboard */; };
 		AB44FCFC2392C2100019C322 /* VPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; };
 		AB44FCFD2392C2100019C322 /* VPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB75B6812392747100653320 /* PrerollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */; };
-		AB75B6822392747100653320 /* VeepioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC26F562390345500EB5ADC /* VeepioViewController.swift */; };
-		AB75B6832392747100653320 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */; };
-		AB75B6892392747100653320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C6238F40EE0082D34A /* LaunchScreen.storyboard */; };
-		AB75B68A2392747100653320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C4238F40EE0082D34A /* Assets.xcassets */; };
-		AB75B68B2392747100653320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C1238F40EC0082D34A /* Main.storyboard */; };
-		AB81962A2392D73400A70A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75B694239274E900653320 /* AppDelegate.swift */; };
-		AB89E0C0238F40EC0082D34A /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */; };
-		AB89E0C3238F40EC0082D34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C1238F40EC0082D34A /* Main.storyboard */; };
-		AB89E0C5238F40EE0082D34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C4238F40EE0082D34A /* Assets.xcassets */; };
-		AB89E0C8238F40EE0082D34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C6238F40EE0082D34A /* LaunchScreen.storyboard */; };
-		ABC26F572390345500EB5ADC /* VeepioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC26F562390345500EB5ADC /* VeepioViewController.swift */; };
-		ABD1E1E32391518D009D1B8F /* PrerollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */; };
-		B02114D147F9FACF7D330B81 /* Pods_VeepPreroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D32B03D084C13F1E41856A /* Pods_VeepPreroll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AB0625D82392CE2D001C3BAF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AB0625D92392CE2D001C3BAF /* VPKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB44FCFE2392C2110019C322 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,19 +34,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18D179DF037B472044D6D744 /* Pods-VeepPrerollB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollB.debug.xcconfig"; path = "Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB.debug.xcconfig"; sourceTree = "<group>"; };
-		220A87C6C82A0CB15E76EC10 /* Pods-VeepPreroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPreroll.debug.xcconfig"; path = "Target Support Files/Pods-VeepPreroll/Pods-VeepPreroll.debug.xcconfig"; sourceTree = "<group>"; };
-		3E0EBE9D96263CB2F13E1A03 /* Pods-VeepPrerollBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollBC.debug.xcconfig"; path = "Target Support Files/Pods-VeepPrerollBC/Pods-VeepPrerollBC.debug.xcconfig"; sourceTree = "<group>"; };
-		3EBF153B36719EA4F45CAE50 /* Pods-VeepPrerollC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollC.debug.xcconfig"; path = "Target Support Files/Pods-VeepPrerollC/Pods-VeepPrerollC.debug.xcconfig"; sourceTree = "<group>"; };
-		424B854147099A2382D13D9B /* Pods_VeepPrerollB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeepPrerollB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E91A048941B55EDB4874D0 /* Pods-VeepPrerollB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollB.release.xcconfig"; path = "Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB.release.xcconfig"; sourceTree = "<group>"; };
-		AB0625DD2392CE2D001C3BAF /* VeepPrerollBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeepPrerollBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C54BBFA79BC4121741129 /* Pods_VeepPrerollB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeepPrerollB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F68C33BFC79AD7D541BB14 /* Pods-VeepPrerollB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollB.debug.xcconfig"; path = "Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB.debug.xcconfig"; sourceTree = "<group>"; };
 		AB44FCF92392C1470019C322 /* VeepPrerollB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeepPrerollB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB44FCFB2392C1FD0019C322 /* VPKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VPKit.framework; sourceTree = "<group>"; };
-		AB75B6912392747100653320 /* VeepPrerollC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeepPrerollC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB75B694239274E900653320 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AdView/AppDelegate.swift; sourceTree = "<group>"; };
-		AB89E0BA238F40EC0082D34A /* VeepPreroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeepPreroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB89E0BD238F40EC0082D34A /* AppDelegateC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateC.swift; sourceTree = "<group>"; };
 		AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		AB89E0C2238F40EC0082D34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB89E0C4238F40EE0082D34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,59 +48,26 @@
 		ABCE90EC2391E2F200399A88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrerollHandler.swift; sourceTree = "<group>"; };
 		ABE5ED2C2391B7AA000B6281 /* VeepPreroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VeepPreroll.entitlements; sourceTree = "<group>"; };
-		BE32273D95C8E12243C0DF30 /* Pods-VeepPrerollBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollBC.release.xcconfig"; path = "Target Support Files/Pods-VeepPrerollBC/Pods-VeepPrerollBC.release.xcconfig"; sourceTree = "<group>"; };
-		C6D32B03D084C13F1E41856A /* Pods_VeepPreroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeepPreroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE6CE6A56144779184BB64E /* Pods-VeepPrerollC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollC.release.xcconfig"; path = "Target Support Files/Pods-VeepPrerollC/Pods-VeepPrerollC.release.xcconfig"; sourceTree = "<group>"; };
-		E1A95C4C0778126E5A6C3F33 /* Pods_VeepPrerollBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeepPrerollBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7CD7D658327747AA8E9C44C /* Pods-VeepPreroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPreroll.release.xcconfig"; path = "Target Support Files/Pods-VeepPreroll/Pods-VeepPreroll.release.xcconfig"; sourceTree = "<group>"; };
-		EC17C06B695AD6C285052C4D /* Pods_VeepPrerollC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeepPrerollC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F48BD7B8AA17974134C68D /* Pods-VeepPrerollB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollB.release.xcconfig"; path = "Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB0625CF2392CE2D001C3BAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB0625D12392CE2D001C3BAF /* VPKit.framework in Frameworks */,
-				9010268E523BB39BDEC27612 /* Pods_VeepPrerollBC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB44FCEF2392C1470019C322 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB44FCFC2392C2100019C322 /* VPKit.framework in Frameworks */,
-				1E05EDE59A3EFAD660689773 /* Pods_VeepPrerollB.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB75B6862392747100653320 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BD502A085CB8C3AAE3E727D /* Pods_VeepPrerollC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB89E0B7238F40EC0082D34A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B02114D147F9FACF7D330B81 /* Pods_VeepPreroll.framework in Frameworks */,
+				70250677F283059846676CDF /* Pods_VeepPrerollB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		371A9E41861B88D2871C932E /* Frameworks */ = {
+		5FF33957B4F8F1F9FA18AC38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6D32B03D084C13F1E41856A /* Pods_VeepPreroll.framework */,
-				424B854147099A2382D13D9B /* Pods_VeepPrerollB.framework */,
-				E1A95C4C0778126E5A6C3F33 /* Pods_VeepPrerollBC.framework */,
-				EC17C06B695AD6C285052C4D /* Pods_VeepPrerollC.framework */,
+				4C6C54BBFA79BC4121741129 /* Pods_VeepPrerollB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,14 +75,8 @@
 		7DEDE0493D139AB3C99CCF87 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				220A87C6C82A0CB15E76EC10 /* Pods-VeepPreroll.debug.xcconfig */,
-				E7CD7D658327747AA8E9C44C /* Pods-VeepPreroll.release.xcconfig */,
-				18D179DF037B472044D6D744 /* Pods-VeepPrerollB.debug.xcconfig */,
-				95E91A048941B55EDB4874D0 /* Pods-VeepPrerollB.release.xcconfig */,
-				3E0EBE9D96263CB2F13E1A03 /* Pods-VeepPrerollBC.debug.xcconfig */,
-				BE32273D95C8E12243C0DF30 /* Pods-VeepPrerollBC.release.xcconfig */,
-				3EBF153B36719EA4F45CAE50 /* Pods-VeepPrerollC.debug.xcconfig */,
-				CEE6CE6A56144779184BB64E /* Pods-VeepPrerollC.release.xcconfig */,
+				68F68C33BFC79AD7D541BB14 /* Pods-VeepPrerollB.debug.xcconfig */,
+				F0F48BD7B8AA17974134C68D /* Pods-VeepPrerollB.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -173,17 +89,14 @@
 				AB89E0BC238F40EC0082D34A /* VeepPreroll */,
 				AB89E0BB238F40EC0082D34A /* Products */,
 				7DEDE0493D139AB3C99CCF87 /* Pods */,
-				371A9E41861B88D2871C932E /* Frameworks */,
+				5FF33957B4F8F1F9FA18AC38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AB89E0BB238F40EC0082D34A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB89E0BA238F40EC0082D34A /* VeepPreroll.app */,
-				AB75B6912392747100653320 /* VeepPrerollC.app */,
 				AB44FCF92392C1470019C322 /* VeepPrerollB.app */,
-				AB0625DD2392CE2D001C3BAF /* VeepPrerollBC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,10 +106,9 @@
 			children = (
 				ABE5ED2C2391B7AA000B6281 /* VeepPreroll.entitlements */,
 				AB75B694239274E900653320 /* AppDelegate.swift */,
-				AB89E0BD238F40EC0082D34A /* AppDelegateC.swift */,
-				AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */,
 				ABC26F562390345500EB5ADC /* VeepioViewController.swift */,
 				ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */,
+				AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */,
 				AB89E0C1238F40EC0082D34A /* Main.storyboard */,
 				AB89E0C4238F40EE0082D34A /* Assets.xcassets */,
 				AB89E0C6238F40EE0082D34A /* LaunchScreen.storyboard */,
@@ -208,37 +120,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB0625C72392CE2D001C3BAF /* VeepPrerollBC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB0625DA2392CE2D001C3BAF /* Build configuration list for PBXNativeTarget "VeepPrerollBC" */;
-			buildPhases = (
-				9CD5344DD1A6C98FFD079437 /* [CP] Check Pods Manifest.lock */,
-				AB0625C92392CE2D001C3BAF /* Sources */,
-				AB0625CF2392CE2D001C3BAF /* Frameworks */,
-				AB0625D32392CE2D001C3BAF /* Resources */,
-				AB0625D82392CE2D001C3BAF /* Embed Frameworks */,
-				D494CA89669B4A1E18A55615 /* [CP] Embed Pods Frameworks */,
-				AB0625DF2392CE80001C3BAF /* Run Fabric Script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VeepPrerollBC;
-			productName = TestAdView;
-			productReference = AB0625DD2392CE2D001C3BAF /* VeepPrerollBC.app */;
-			productType = "com.apple.product-type.application";
-		};
 		AB44FCE72392C1470019C322 /* VeepPrerollB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB44FCF62392C1470019C322 /* Build configuration list for PBXNativeTarget "VeepPrerollB" */;
 			buildPhases = (
-				5301A103ED9BC57B53D840F0 /* [CP] Check Pods Manifest.lock */,
+				2CD146A1C18586D064A744FE /* [CP] Check Pods Manifest.lock */,
 				AB44FCE92392C1470019C322 /* Sources */,
 				AB44FCEF2392C1470019C322 /* Frameworks */,
 				AB44FCF12392C1470019C322 /* Resources */,
 				AB44FCFE2392C2110019C322 /* Embed Frameworks */,
-				972A8957F4D44FCBE82CDD3F /* [CP] Embed Pods Frameworks */,
+				2E726EE79479D4D343E780C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,46 +138,6 @@
 			name = VeepPrerollB;
 			productName = TestAdView;
 			productReference = AB44FCF92392C1470019C322 /* VeepPrerollB.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AB75B67E2392747100653320 /* VeepPrerollC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB75B68E2392747100653320 /* Build configuration list for PBXNativeTarget "VeepPrerollC" */;
-			buildPhases = (
-				CE6920EB95229FD667E2B604 /* [CP] Check Pods Manifest.lock */,
-				AB75B6802392747100653320 /* Sources */,
-				AB75B6862392747100653320 /* Frameworks */,
-				AB75B6882392747100653320 /* Resources */,
-				BC62616C135A146FA79CACC7 /* [CP] Embed Pods Frameworks */,
-				AB8196292392D6B600A70A80 /* Run Fabric Script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VeepPrerollC;
-			productName = TestAdView;
-			productReference = AB75B6912392747100653320 /* VeepPrerollC.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AB89E0B9238F40EC0082D34A /* VeepPreroll */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB89E0D7238F40EE0082D34A /* Build configuration list for PBXNativeTarget "VeepPreroll" */;
-			buildPhases = (
-				26E4A6B6A2AE02F769B776F7 /* [CP] Check Pods Manifest.lock */,
-				AB89E0B6238F40EC0082D34A /* Sources */,
-				AB89E0B7238F40EC0082D34A /* Frameworks */,
-				AB89E0B8238F40EC0082D34A /* Resources */,
-				AB75B67D2392740D00653320 /* Run Fabric Script */,
-				CD2A58F27009039CC1CD8C2F /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VeepPreroll;
-			productName = TestAdView;
-			productReference = AB89E0BA238F40EC0082D34A /* VeepPreroll.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -298,18 +149,6 @@
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Foundry;
-				TargetAttributes = {
-					AB0625C72392CE2D001C3BAF = {
-						SystemCapabilities = {
-							com.apple.Multipath = {
-								enabled = 0;
-							};
-						};
-					};
-					AB89E0B9238F40EC0082D34A = {
-						CreatedOnToolsVersion = 10.1;
-					};
-				};
 			};
 			buildConfigurationList = AB89E0B5238F40EC0082D34A /* Build configuration list for PBXProject "VeepPreroll" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -324,25 +163,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB89E0B9238F40EC0082D34A /* VeepPreroll */,
-				AB75B67E2392747100653320 /* VeepPrerollC */,
 				AB44FCE72392C1470019C322 /* VeepPrerollB */,
-				AB0625C72392CE2D001C3BAF /* VeepPrerollBC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB0625D32392CE2D001C3BAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB0625D42392CE2D001C3BAF /* LaunchScreen.storyboard in Resources */,
-				AB0625D52392CE2D001C3BAF /* Assets.xcassets in Resources */,
-				AB0625D62392CE2D001C3BAF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB44FCF12392C1470019C322 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,52 +179,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB75B6882392747100653320 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB75B6892392747100653320 /* LaunchScreen.storyboard in Resources */,
-				AB75B68A2392747100653320 /* Assets.xcassets in Resources */,
-				AB75B68B2392747100653320 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB89E0B8238F40EC0082D34A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB89E0C8238F40EE0082D34A /* LaunchScreen.storyboard in Resources */,
-				AB89E0C5238F40EE0082D34A /* Assets.xcassets in Resources */,
-				AB89E0C3238F40EC0082D34A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26E4A6B6A2AE02F769B776F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VeepPreroll-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5301A103ED9BC57B53D840F0 /* [CP] Check Pods Manifest.lock */ = {
+		2CD146A1C18586D064A744FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,7 +204,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		972A8957F4D44FCBE82CDD3F /* [CP] Embed Pods Frameworks */ = {
+		2E726EE79479D4D343E780C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,208 +226,9 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CD5344DD1A6C98FFD079437 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VeepPrerollBC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB0625DF2392CE80001C3BAF /* Run Fabric Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Fabric Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 87d575627ee284386cdbb9b81101e6b3b2609f89 e29f184d2ef039f1253f7a7377ec6b1c63ea3aa4b1c190467e2dc1ace7ced115\n";
-		};
-		AB75B67D2392740D00653320 /* Run Fabric Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Fabric Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 87d575627ee284386cdbb9b81101e6b3b2609f89 e29f184d2ef039f1253f7a7377ec6b1c63ea3aa4b1c190467e2dc1ace7ced115\n";
-		};
-		AB8196292392D6B600A70A80 /* Run Fabric Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Fabric Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 87d575627ee284386cdbb9b81101e6b3b2609f89 e29f184d2ef039f1253f7a7377ec6b1c63ea3aa4b1c190467e2dc1ace7ced115\n";
-		};
-		BC62616C135A146FA79CACC7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeepPrerollC/Pods-VeepPrerollC-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
-				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/VPKit/VPKit.framework",
-				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
-				"${BUILT_PRODUCTS_DIR}/dotveep/dotveep.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VPKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dotveep.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeepPrerollC/Pods-VeepPrerollC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD2A58F27009039CC1CD8C2F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeepPreroll/Pods-VeepPreroll-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
-				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/VPKit/VPKit.framework",
-				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
-				"${BUILT_PRODUCTS_DIR}/dotveep/dotveep.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VPKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dotveep.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeepPreroll/Pods-VeepPreroll-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE6920EB95229FD667E2B604 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VeepPrerollC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D494CA89669B4A1E18A55615 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeepPrerollBC/Pods-VeepPrerollBC-frameworks.sh",
-				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeepPrerollBC/Pods-VeepPrerollBC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB0625C92392CE2D001C3BAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB0625CB2392CE2D001C3BAF /* PrerollHandler.swift in Sources */,
-				AB0625E12392CEE5001C3BAF /* AppDelegateC.swift in Sources */,
-				AB0625CC2392CE2D001C3BAF /* VeepioViewController.swift in Sources */,
-				AB0625CD2392CE2D001C3BAF /* GoogleViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB44FCE92392C1470019C322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,28 +237,6 @@
 				AB44FCEB2392C1470019C322 /* PrerollHandler.swift in Sources */,
 				AB44FCEC2392C1470019C322 /* VeepioViewController.swift in Sources */,
 				AB44FCED2392C1470019C322 /* GoogleViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB75B6802392747100653320 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB75B6812392747100653320 /* PrerollHandler.swift in Sources */,
-				AB0625E02392CEE3001C3BAF /* AppDelegateC.swift in Sources */,
-				AB75B6822392747100653320 /* VeepioViewController.swift in Sources */,
-				AB75B6832392747100653320 /* GoogleViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB89E0B6238F40EC0082D34A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB81962A2392D73400A70A80 /* AppDelegate.swift in Sources */,
-				ABD1E1E32391518D009D1B8F /* PrerollHandler.swift in Sources */,
-				ABC26F572390345500EB5ADC /* VeepioViewController.swift in Sources */,
-				AB89E0C0238F40EC0082D34A /* GoogleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,63 +262,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB0625DB2392CE2D001C3BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E0EBE9D96263CB2F13E1A03 /* Pods-VeepPrerollBC.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.prerollBC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB0625DC2392CE2D001C3BAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE32273D95C8E12243C0DF30 /* Pods-VeepPrerollBC.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.prerollBC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		AB44FCF72392C1470019C322 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18D179DF037B472044D6D744 /* Pods-VeepPrerollB.debug.xcconfig */;
+			baseConfigurationReference = 68F68C33BFC79AD7D541BB14 /* Pods-VeepPrerollB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -780,7 +289,7 @@
 		};
 		AB44FCF82392C1470019C322 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E91A048941B55EDB4874D0 /* Pods-VeepPrerollB.release.xcconfig */;
+			baseConfigurationReference = F0F48BD7B8AA17974134C68D /* Pods-VeepPrerollB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -797,48 +306,6 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.veep.prerollB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AB75B68F2392747100653320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBF153B36719EA4F45CAE50 /* Pods-VeepPrerollC.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = VeepPreroll/VeepPreroll.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.prerollC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB75B6902392747100653320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE6CE6A56144779184BB64E /* Pods-VeepPrerollC.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = VeepPreroll/VeepPreroll.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.prerollC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -897,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -953,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -963,64 +430,9 @@
 			};
 			name = Release;
 		};
-		AB89E0D8238F40EE0082D34A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220A87C6C82A0CB15E76EC10 /* Pods-VeepPreroll.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = VeepPreroll/VeepPreroll.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 4;
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.preroll;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB89E0D9238F40EE0082D34A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7CD7D658327747AA8E9C44C /* Pods-VeepPreroll.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CODE_SIGN_ENTITLEMENTS = VeepPreroll/VeepPreroll.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 6R3CG82D75;
-				INFOPLIST_FILE = VeepPreroll/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 4;
-				PRODUCT_BUNDLE_IDENTIFIER = io.veep.preroll;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB0625DA2392CE2D001C3BAF /* Build configuration list for PBXNativeTarget "VeepPrerollBC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB0625DB2392CE2D001C3BAF /* Debug */,
-				AB0625DC2392CE2D001C3BAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AB44FCF62392C1470019C322 /* Build configuration list for PBXNativeTarget "VeepPrerollB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1030,29 +442,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB75B68E2392747100653320 /* Build configuration list for PBXNativeTarget "VeepPrerollC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB75B68F2392747100653320 /* Debug */,
-				AB75B6902392747100653320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AB89E0B5238F40EC0082D34A /* Build configuration list for PBXProject "VeepPreroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB89E0D5238F40EE0082D34A /* Debug */,
 				AB89E0D6238F40EE0082D34A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB89E0D7238F40EE0082D34A /* Build configuration list for PBXNativeTarget "VeepPreroll" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB89E0D8238F40EE0082D34A /* Debug */,
-				AB89E0D9238F40EE0082D34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

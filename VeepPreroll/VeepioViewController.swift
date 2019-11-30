@@ -57,10 +57,12 @@ class VeepioViewController: UIViewController  {
         //cancelling a preroll video
         if sender.isOn == false {
             self.prerollHandler = nil
+            if let activityIndicator = self.preview.subviews.last
+                as? UIActivityIndicatorView {
+                activityIndicator.removeFromSuperview()
+            }
         }
     }
-    
-  
 }
 
 //MARK: -
