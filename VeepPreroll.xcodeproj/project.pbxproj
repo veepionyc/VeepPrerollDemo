@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		70250677F283059846676CDF /* Pods_VeepPrerollB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C54BBFA79BC4121741129 /* Pods_VeepPrerollB.framework */; };
-		AB44FCEA2392C1470019C322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75B694239274E900653320 /* AppDelegate.swift */; };
 		AB44FCEB2392C1470019C322 /* PrerollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */; };
 		AB44FCEC2392C1470019C322 /* VeepioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC26F562390345500EB5ADC /* VeepioViewController.swift */; };
 		AB44FCED2392C1470019C322 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */; };
@@ -17,6 +16,7 @@
 		AB44FCF42392C1470019C322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89E0C1238F40EC0082D34A /* Main.storyboard */; };
 		AB44FCFC2392C2100019C322 /* VPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; };
 		AB44FCFD2392C2100019C322 /* VPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB44FCFB2392C1FD0019C322 /* VPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABA505E42393105600DC8710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA505E32393105600DC8710 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,12 +38,12 @@
 		68F68C33BFC79AD7D541BB14 /* Pods-VeepPrerollB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeepPrerollB.debug.xcconfig"; path = "Target Support Files/Pods-VeepPrerollB/Pods-VeepPrerollB.debug.xcconfig"; sourceTree = "<group>"; };
 		AB44FCF92392C1470019C322 /* VeepPrerollB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeepPrerollB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB44FCFB2392C1FD0019C322 /* VPKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VPKit.framework; sourceTree = "<group>"; };
-		AB75B694239274E900653320 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AdView/AppDelegate.swift; sourceTree = "<group>"; };
 		AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		AB89E0C2238F40EC0082D34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB89E0C4238F40EE0082D34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB89E0C7238F40EE0082D34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB89E0C9238F40EE0082D34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA505E32393105600DC8710 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC26F562390345500EB5ADC /* VeepioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeepioViewController.swift; sourceTree = "<group>"; };
 		ABCE90EC2391E2F200399A88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrerollHandler.swift; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		AB89E0BC238F40EC0082D34A /* VeepPreroll */ = {
 			isa = PBXGroup;
 			children = (
+				ABA505E32393105600DC8710 /* AppDelegate.swift */,
 				ABE5ED2C2391B7AA000B6281 /* VeepPreroll.entitlements */,
-				AB75B694239274E900653320 /* AppDelegate.swift */,
 				ABC26F562390345500EB5ADC /* VeepioViewController.swift */,
 				ABD1E1E22391518D009D1B8F /* PrerollHandler.swift */,
 				AB89E0BF238F40EC0082D34A /* GoogleViewController.swift */,
@@ -233,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB44FCEA2392C1470019C322 /* AppDelegate.swift in Sources */,
+				ABA505E42393105600DC8710 /* AppDelegate.swift in Sources */,
 				AB44FCEB2392C1470019C322 /* PrerollHandler.swift in Sources */,
 				AB44FCEC2392C1470019C322 /* VeepioViewController.swift in Sources */,
 				AB44FCED2392C1470019C322 /* GoogleViewController.swift in Sources */,
